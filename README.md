@@ -1,66 +1,76 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+NAM : Reza Fahresi
+NIM : 362358302144
+KELAS : 2A TRPL
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+1. Pratikum
+    Melakukan Register Pada User (POST)
+   ![1](https://github.com/user-attachments/assets/5bd34ce6-e5ea-49cc-82f8-01cef3a99e0a)
+    gambar diatas melakukan register di postman dengan menggunakan endpoint post respon yang muncul berupa token
 
-## About Laravel
+    Melakukan Login Pada User (POST)
+   ![2](https://github.com/user-attachments/assets/0a76ff85-a748-4401-96e5-bcfe15feee41)
+   gambar diatas memiliki keterangan login dengan menggunakan endpoint post dan secara otomatis akan muncul
+   respon berupa token
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+   Menyimpan Data Mahasiswa (POST)
+   ![3](https://github.com/user-attachments/assets/6cfec566-5384-4646-a579-818e3748a43e)
+   gambar diatas melkukan metode post dan memasukan body beserta bearer token yang sudah kita dapatkan
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+   Mengambil Semua Data Mahasiswa (GET)
+   ![4](https://github.com/user-attachments/assets/c436fd91-d6d3-42bb-8c01-2e713793c036)
+   gambar diatas melakukan cek data mahasiswa dengan menggunakan metode get
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+   Menghapus Data Mahasiswa (Hanya Admin - DELETE)
+   ![5](https://github.com/user-attachments/assets/f98540fc-68a0-4dd2-998e-14a4e7587e2f)
+   Keterangan: Melakukan hapus data mahasiswa sesuai dengan id mahasiswa dengan menggunakan endpoint delete dan mengisi token yang sudah didapatkan tadi.
 
-## Learning Laravel
+ 
+2. Tugas Pratikum
+   Menambahkan Role Pada Tabel Mahasiswas
+       :membuat migrate table untuk users
+       <img width="596" alt="image" src="https://github.com/user-attachments/assets/402effa4-d515-47bc-858d-b8b107553fcd">
+       <img width="666" alt="image" src="https://github.com/user-attachments/assets/d1e4fa08-8558-49fa-bff5-ff45014e5df4">
+       gambar ditas menampilkan hasil dari membuat table users dan memasukan data role pada table
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+   Mengisi Data Admin Baru Dengan Role Admin
+       Mengisi data admin pada seeder
+       <img width="668" alt="image" src="https://github.com/user-attachments/assets/86e9ca66-d7cd-4c50-a4f2-70834503d6d6">
+       gambar ditas mengisi data admin baru dengan role admin pada seeder
+       <img width="806" alt="image" src="https://github.com/user-attachments/assets/168078ea-2a49-458c-80ca-8acb4777e537">
+       gambar diatas menampilkan data
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+   Melakukan Perintah CRUD (Login sebagai role Admin)
+       Login Admin (POST)
+       <img width="680" alt="image" src="https://github.com/user-attachments/assets/5e4406ac-c58e-4d69-ba13-e2f6ce001d75">
+       gambar diatas menampilkan hasil dari login admin yang gunanya untuk melakukan beberapa endpoint.
 
-### Premium Partners
+   membuat data mahasiswa (POST)
+   <img width="673" alt="image" src="https://github.com/user-attachments/assets/e1216c98-e626-40e3-bd6c-7931b6e830ce">
+   gambar ditas melakukan panambahan data mahasiswa dengan menggunakan token yang sudah didapatkan
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+   Melihat Data Mahasiswa (GET)
+   <img width="674" alt="image" src="https://github.com/user-attachments/assets/84953755-12ab-46b8-a1ee-16787c45037b">
+   gambar diatas menampilkan hasil dari data mahasiswa
 
-## Contributing
+   Mengubah data mahasiswa (PUT)
+   <img width="676" alt="image" src="https://github.com/user-attachments/assets/1b8ea1f9-756f-4056-8f0d-daec6a660e8d">
+   gambar diatas menampilkan hasil dari merubah data mahasiswa
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+   Menghapus data mahasiswa (DELETE)
+   <img width="677" alt="image" src="https://github.com/user-attachments/assets/9a63c7b8-a084-43da-b5e6-1b485d715781">
+   gambar diatas menampilkan hasil dari menghapus data mahasiswa
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+   
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+    
+
